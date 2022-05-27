@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>JA - Terminal Web Interativo</title>
+</head>
+<body>
+    <div class="terminal">
+        <a id="antes"></a>
+    </div>
+    <div class="comando" onclick="$('textea').focus();">
+        <textarea
+        id="textea" 
+        cols="5"
+        rows="1"></textarea>
+    </div>
+    <div id="linha">
+        <span id="typer"></span><b class="cursor" id="cursor">█</b>
+    </div>
+    <script src="js/caret.js"></script>
+    <script src="js/comandos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
